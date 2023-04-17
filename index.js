@@ -1,4 +1,136 @@
 
+// Data structure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Arrays
+// const myArr=[1,2,3,4,'shariful', 'islam'];
+// map filter reduce 
+
+// const arr=[64,9, 3, 5,2,4,7];
+
+// filter ilteration method 
+// const result=arr.filter((value)=>value>4)
+// reduce method 
+// const result=arr.reduce((sum,value)=>sum+value,0);
+
+
+
+
+// map iteration method 
+
+// let result=arr.map((value)=>value*2);
+// console.log(result);
+
+// This is forEach method here
+// arr.forEach((a, index)=>console.log(a,index))
+
+
+// extract max value from the arrr
+// function getMax(arr){
+//   let len=arr.length;
+//   let max=-Infinity;
+//   while(len--){
+//     if(arr[len]>max){
+//       max=arr[len];
+//     }
+//   }
+//   return max;
+// }
+
+// function getMin(arr){
+//   let len=arr.length;
+//   let min=Infinity;
+//   while(len--){
+//     if(arr[len]<min){
+//       min=arr[len];
+//     }
+
+    
+//   }
+//   return min
+// }
+// console.log(getMin(arr));
+// console.log(getMax(arr));
+
+// extract max from the array
+// const max=Math.max.apply(null,arr);
+// const min=Math.min.apply(null,arr);
+// console.log(max);
+// console.log(min);
+
+// fisher yates sorting for random 
+
+// for(let i=arr.length-1;i>=0;i--){
+//   let j=Math.floor(Math.random()*(i+1));
+//   let temp=arr[i];
+//   arr[i]=arr[j];
+//   arr[j]=temp;
+// }
+
+// ascending and descending sorting here 
+// let result=arr.sort(function(a,b){return b-a});
+// let result=arr.sort(function(a,b){return a-b});
+// console.log(arr)
+
+
+
+
+
+// const part=myArr.splice(1,5);
+// const part=myArr.splice(2);
+// const part=myArr.slice(0,3);
+// const part1=myArr.slice(2);
+// const part2=myArr.slice(4);
+// console.log(part);
+// console.log(part1);
+// console.log(part2);
+
+// push method 
+// myArr.push(420);
+// console.log(myArr);
+// pop method
+// myArr.pop();
+// console.log(myArr);
+
+// shift and unshift method using here 
+// myArr.shift();
+// console.log(myArr);
+// myArr.unshift("Adiyat")
+// console.log(myArr);
+
+// concate two  or more array
+
+// const arrOne=['a','b','c','d'];
+// const arrTwo=[1,2,3,4,5];
+// const arrThree=[6,8,7];
+// let finalArr=myArr.concat(arrOne, arrTwo,);
+// for(const item in finalArr){
+//   console.log(finalArr[item])
+// }
+// console.log(finalArr);
+
+
+
+
+
+
 
 
 
